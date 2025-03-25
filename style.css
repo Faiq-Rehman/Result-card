@@ -1,0 +1,37 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.result-card {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    background: #f8f9fa;
+}
+
+.result-info {
+    background: #17a2b8;
+    color: white;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    flex: 1;
+    width: 5000px;
+}
+
+.result-details {
+    padding: 20px;
+    flex: 2;
+}
+
+.btn-custom {
+    background: #17a2b8;
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    background: #138496;
+}
